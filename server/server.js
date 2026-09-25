@@ -13,7 +13,7 @@ const __dirname = path.dirname(__filename);
 const distPath = path.join(__dirname, '../client/dist');
 
 const app = express();
-const port = 3001;
+const port = Number(process.env.PORT) || 3001;
 
 app.use(cors());
 app.use(express.json());
