@@ -1,0 +1,25 @@
+{
+  "name": "find-your-bestfriend",
+  "version": "1.0.0",
+  "description": "Find Your Bestfriend — A two-player cooperative mystery-exploration game designed to strengthen trust, empathy, and communication.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "node server/test-e2e.js",
+    "build": "npm --prefix client run build",
+    "dev:server": "npm --prefix server start",
+    "dev:client": "npm --prefix client dev"
+  },
+  "keywords": [
+    "co-op-game",
+    "best-friends",
+    "mystery-exploration",
+    "multiplayer",
+    "react",
+    "express",
+    "websockets",
+    "canvas-2d"
+  ],
+  "author": "Antigravity Pair Programmer",
+  "license": "MIT"
+}
